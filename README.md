@@ -63,6 +63,8 @@ Optional script version of the analysis:
 ```bash
 python analysis.py
 ```
+## Live App Link 
+https://bankmind-taskanalysis.streamlit.app
 
 ## Notes For Submission
 
