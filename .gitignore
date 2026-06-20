@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Ignore the extracted UCI dataset package by default.
+# Keep only the file this project actually uses.
+bank+marketing/*
+!bank+marketing/bank/
+bank+marketing/bank/*
+!bank+marketing/bank/bank-full.csv
